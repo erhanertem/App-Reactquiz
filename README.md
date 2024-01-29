@@ -24,6 +24,7 @@
 | Package command      | Package link | Description |
 | -------------------- | ------------ | ----------- |
 | npx create-react-app |              |             |
+| json-server          |              |             |
 
 </details>
 
