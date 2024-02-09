@@ -1,8 +1,4 @@
-import { useQuiz } from '../contexts/QuizContext';
-
-function NextButton() {
-	const { dispatch, answer, index, numQuestions } = useQuiz();
-
+function NextButton({ dispatch, answer, index, numQuestions }) {
 	//GUARD CLAUSE
 	// NOTE: Return null is the intentional absence of any object value or below JSX gets returned
 	if (answer === null) return null;
