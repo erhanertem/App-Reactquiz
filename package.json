@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "concurrently": "^8.2.2",
     "json-server": "^1.0.0-beta.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,7 +21,7 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch data/questions.json --port 8000",
     "prod_build": "npm install && npm run build",
-    "prod_serve": "npm run server && npx serve -s build"
+    "prod_serve": "concurrently \"npm run server\" \"npx serve -s build\""
   },
   "eslintConfig": {
     "extends": [
