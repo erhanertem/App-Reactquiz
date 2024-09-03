@@ -10,7 +10,9 @@
 
 &emsp;
 
-#### [React-Quiz App](https://app-reactquiz-erhan-ertem.netlify.app/)
+###### ⚠️Free-tier render services may experience throttling, leading to delayed app loading times.
+
+#### [React-Quiz App](https://react-quiz-erhan-ertem.onrender.com)
 
 <img src="./screenshot.webp" width="500px"/>
 
