@@ -2,11 +2,11 @@
 
 &emsp;
 
-## Udemy The Ultimate React Course 2023: React, Redux & More by Jonas Schmedtmann
+## Udemy The Ultimate React Course 2024: React, Redux & More by Jonas Schmedtmann
 
 ### **Objective:** Create React-Quiz App
 
--  Explore useReducer hook for centrelized interrelated state management
+- Explore useReducer hook for local centralized interrelated state management
 
 &emsp;
 
