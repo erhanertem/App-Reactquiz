@@ -12,6 +12,8 @@
 
 ###### ⚠️Free-tier render services may experience throttling, leading to delayed app loading times.
 
+###### ⚠️It takes additional time for the backend to kick in, leading to fetch error for a couple of minutes.
+
 #### [React-Quiz App](https://react-quiz-erhan-ertem.onrender.com)
 
 <img src="./screenshot.webp" width="500px"/>
