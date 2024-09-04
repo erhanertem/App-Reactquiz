@@ -81,8 +81,7 @@ function App() {
   const hasAnswered = answer !== null;
 
   useEffect(() => {
-    // fetch('http://localhost:8000/questions')
-    fetch('https://react-quiz-erhan-ertem.onrender.com/questions')
+    fetch('http://localhost:8000/questions')
       .then((res) => res.json())
       .then((data) => dispatch({ type: 'dataReceived', payload: data }))
       .catch((err) => dispatch({ type: 'dataFailed' }));
